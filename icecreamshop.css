@@ -1,0 +1,54 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  color: rgb(18, 123, 126);
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.fa-twitter{
+  margin-right: 20px;
+}
+.fa-facebook{
+  margin-right: 20px;
+}
+.fa-instagram{
+  margin-right: 20px;
+}
+img{
+  background-size: cover;
+}
+h1{
+  font-family: "Gravitas One", serif;}
+h2{
+  margin-left: 550px;
+  color: darkolivegreen;
+  font-weight: bold;
+  font-family: "Boldonse", system-ui;
+  margin-bottom: 40px;
+}
+p{
+  margin-bottom: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-indent: 50px;
+  word-spacing: 2px;
+  font-size: 20px;
+  font-family: "Winky Sans", sans-serif;
+  
+}
