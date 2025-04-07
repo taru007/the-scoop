@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(235, 242, 244);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+  }.navbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: pink;
+      align-items: center;
+      padding: 10px;
+      position: sticky;
+      top: 0px;
+      color: rgb(18, 123, 126);
+    }
+    .navbar ul{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      gap: 40px;
+      font-family: "Winky Sans", sans-serif;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .iconcart{
+      margin-right: 30px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+     h1 {
+      font-family:"Gravitas One", serif ;
+      animation: name duration timing-function delay iteration-count direction fill-mode;
+      animation: scoop 7s ease infinite;
+    }
+    @keyframes scoop{
+      25%{
+        color: blueviolet;
+      }
+      45%{
+        color: yellowgreen;
+      }
+      65%{
+        color: brown;
+        transform: scale(1.1);
+      }
+      85%{
+        color:blue ;
+      }
+      100%{
+        color: forestgreen;
+      }
+    }
+    .img{
+        background-image: url(contact.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 100%;
+      }
+    a{
+      color: rgb(18, 123, 126);
+    }
+    .text{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      .container{
+        height: 80vh;
+        width: 100%;
+      }
+      .box{
+        height: 500px;
+        width: 700px;
+      }
+    .contact{
+        margin-left: 550px;
+        padding-bottom: 20px;
+      }
+      .iconsocial{
+        color: rgb(18, 123, 126);
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        font-size: 30px;
+        padding-bottom: 20px;
+      }
+      .fa-twitter{
+        border: 1px solid rgb(18, 123, 126);
+        border-radius: 50%;
+        padding: 7px;
+      }
+      .fa-facebook{
+        border: 1px solid rgb(18, 123, 126);
+        border-radius: 50%;
+        padding: 7px;
+      }
+      .fa-instagram{
+        border: 1px solid rgb(18, 123, 126);
+        border-radius: 50%;
+        padding: 7px;
+      }
+      .fa-linkedin-in{
+        border: 1px solid rgb(18, 123, 126);
+        border-radius: 50%;
+        padding: 7px;
+      }
+    .navbar label{
+        display: none;
+      }
+      #click:checked~.navbar ul{
+        display: block;
+      }
+      @media screen and (max-width:650px){
+        .navbar label{
+          display: block;
+        }
+        .navbar ul{
+          display: none;
+          position: absolute;
+          top: 100px;
+          background-color: black;
+          width: 100%;
+        }
+        .navbar ul li{
+          padding:10px;
+          margin-left: 100px;
+        }
+      }
+      #click{
+        display: none;
+      }
+      
