@@ -55,6 +55,136 @@ body{
     a{
       color: rgb(18, 123, 126);
     }
+    .img{
+        background-image: url(product.jpg);
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+      }
+      .text{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 20px;
+      }
+      .container{
+        height: 70vh;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .box1{
+        height: 400px;
+        width: 300px;  
+        background-color: white;
+      }
+      .box1 img{
+        border-radius: 50%;
+        border: 10px solid pink;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      .box1 h3{
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .box1 button{
+        background-color:rgb(121, 205, 230) ;
+        font-family: "Winky Sans", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 20px 35px;
+        margin-left: 65px;
+        margin-top: 20px;
+      }
+      .box2{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+      }
+      .box2 img{
+        border-radius: 50%;
+        border: 10px solid pink;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      .box2 h3{
+        margin-left: 90px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .box2 button{
+        background-color:rgb(121, 205, 230) ;
+        font-family: "Winky Sans", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 20px 35px;
+        margin-left: 65px;
+        margin-top: 20px;
+      }
+      .box3{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+      }
+      .box3 img{
+        border-radius: 50%;
+        border: 10px solid pink;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      .box3 h3{
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .box3 button{
+        background-color:rgb(121, 205, 230) ;
+        font-family: "Winky Sans", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 20px 35px;
+        margin-left: 65px;
+        margin-top: 20px;
+      }
+      .box4{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+      }
+      .box4 img{
+        border-radius: 50%;
+        border: 10px solid pink;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      .box4 h3{
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .box4 button{
+        background-color:rgb(121, 205, 230) ;
+        font-family: "Winky Sans", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 20px 35px;
+        margin-left: 65px;
+        margin-top: 20px;
+      }
     .contact{
         margin-left: 550px;
         padding-bottom: 20px;
