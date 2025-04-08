@@ -70,10 +70,38 @@ body{
       .container{
         height: 80vh;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
-      .box{
+      form{
+        background-color: white;
+        align-items: center;
         height: 500px;
-        width: 700px;
+        width: 800px;
+      }
+      .inputfield{
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 200px;
+        padding-left: 10px;
+        border: 1px soild black;
+        border-radius: 10px;
+        outline: none;
+      }
+      .textareafield{
+        height: 150px;
+        padding-top: 10px;
+        margin-left: 200px;
+        margin-top: 20px;
+      }
+      .btn{
+        border-radius: 20px;
+        color: white;
+        margin-top: 18px;
+        padding: 10px;
+        background-color: pink;
       }
     .contact{
         margin-left: 550px;
