@@ -86,7 +86,11 @@ body{
         margin-top: 10px;
       }
       .box1 h3{
+<<<<<<< HEAD
         margin-left: 75px;
+=======
+        margin-left: 70px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 10px;
         font-size: 20px;
       }
@@ -98,6 +102,7 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
+<<<<<<< HEAD
         margin-left: 80px;
         margin-top: 20px;
       }
@@ -113,6 +118,11 @@ body{
       .box4 img:hover{
         transform: scale(1.1);
       }
+=======
+        margin-left: 65px;
+        margin-top: 20px;
+      }
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
       .box2{
         height: 400px;
         width: 300px;
@@ -126,7 +136,11 @@ body{
         margin-top: 10px;
       }
       .box2 h3{
+<<<<<<< HEAD
         margin-left: 95px;
+=======
+        margin-left: 90px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 10px;
         font-size: 20px;
       }
@@ -138,7 +152,11 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
+<<<<<<< HEAD
         margin-left: 80px;
+=======
+        margin-left: 65px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 20px;
       }
       .box3{
@@ -166,7 +184,11 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
+<<<<<<< HEAD
         margin-left: 80px;
+=======
+        margin-left: 65px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 20px;
       }
       .box4{
@@ -182,7 +204,11 @@ body{
         margin-top: 10px;
       }
       .box4 h3{
+<<<<<<< HEAD
         margin-left: 110px;
+=======
+        margin-left: 70px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 10px;
         font-size: 20px;
       }
@@ -194,7 +220,11 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
+<<<<<<< HEAD
         margin-left: 80px;
+=======
+        margin-left: 65px;
+>>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         margin-top: 20px;
       }
     .contact{
