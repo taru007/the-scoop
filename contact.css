@@ -77,17 +77,12 @@ body{
       form{
         background-color: white;
         align-items: center;
-<<<<<<< HEAD
         height: 550px;
-======
-        height: 500px;
->>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
         width: 800px;
       }
       .inputfield{
         width: 400px;
         height: 40px;
-<<<<<<< HEAD
         font-size: 15px;
         margin-top: 20px;
         margin-left: 200px;
@@ -118,27 +113,6 @@ body{
         font-family: "Winky Sans", sans-serif;
         background-color: pink;
         
-=======
-        margin-top: 20px;
-        margin-left: 200px;
-        padding-left: 10px;
-        border: 1px soild black;
-        border-radius: 10px;
-        outline: none;
-      }
-      .textareafield{
-        height: 150px;
-        padding-top: 10px;
-        margin-left: 200px;
-        margin-top: 20px;
-      }
-      .btn{
-        border-radius: 20px;
-        color: white;
-        margin-top: 18px;
-        padding: 10px;
-        background-color: pink;
->>>>>>> bf2884803b768bdbbed7eeaf91cb0bab07ca52ec
       }
     .contact{
         margin-left: 550px;
