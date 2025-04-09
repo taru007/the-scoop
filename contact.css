@@ -77,31 +77,42 @@ body{
       form{
         background-color: white;
         align-items: center;
-        height: 500px;
+        height: 550px;
         width: 800px;
       }
       .inputfield{
         width: 400px;
         height: 40px;
+        font-size: 15px;
         margin-top: 20px;
         margin-left: 200px;
-        padding-left: 10px;
-        border: 1px soild black;
-        border-radius: 10px;
-        outline: none;
+        padding: 8px;
+        border: 1px soild grey;
+        border-radius: 25px;
+        
       }
       .textareafield{
         height: 150px;
-        padding-top: 10px;
+        width: 410px;
+        font-size: 15px;
+        border: 1px solid grey;
+        padding-top: 20px;
         margin-left: 200px;
+        border-radius: 25px;
         margin-top: 20px;
+       
       }
       .btn{
-        border-radius: 20px;
+        border-radius: 25px;
         color: white;
         margin-top: 18px;
-        padding: 10px;
+        margin-left: 200px;
+        padding: 15px 150px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Winky Sans", sans-serif;
         background-color: pink;
+        
       }
     .contact{
         margin-left: 550px;

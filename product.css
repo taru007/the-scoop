@@ -86,7 +86,7 @@ body{
         margin-top: 10px;
       }
       .box1 h3{
-        margin-left: 70px;
+        margin-left: 75px;
         margin-top: 10px;
         font-size: 20px;
       }
@@ -98,8 +98,20 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
-        margin-left: 65px;
+        margin-left: 80px;
         margin-top: 20px;
+      }
+      .box1 img:hover{
+        transform: scale(1.1);
+      }
+      .box2 img:hover{
+        transform: scale(1.1);
+      }
+      .box3 img:hover{
+        transform: scale(1.1);
+      }
+      .box4 img:hover{
+        transform: scale(1.1);
       }
       .box2{
         height: 400px;
@@ -114,7 +126,7 @@ body{
         margin-top: 10px;
       }
       .box2 h3{
-        margin-left: 90px;
+        margin-left: 95px;
         margin-top: 10px;
         font-size: 20px;
       }
@@ -126,7 +138,7 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
-        margin-left: 65px;
+        margin-left: 80px;
         margin-top: 20px;
       }
       .box3{
@@ -154,7 +166,7 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
-        margin-left: 65px;
+        margin-left: 80px;
         margin-top: 20px;
       }
       .box4{
@@ -170,7 +182,7 @@ body{
         margin-top: 10px;
       }
       .box4 h3{
-        margin-left: 70px;
+        margin-left: 110px;
         margin-top: 10px;
         font-size: 20px;
       }
@@ -182,7 +194,7 @@ body{
         font-weight: bold;
         border-radius: 30px;
         padding: 20px 35px;
-        margin-left: 65px;
+        margin-left: 80px;
         margin-top: 20px;
       }
     .contact{
