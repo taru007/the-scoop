@@ -18,7 +18,7 @@ body{
       display: flex;
       justify-content: space-between;
       list-style: none;
-      gap: 40px;
+      gap: 120px;
       font-family: "Winky Sans", sans-serif;
       font-size: 20px;
       margin-right: 10px;
@@ -55,6 +55,23 @@ body{
     a{
       color: rgb(18, 123, 126);
     }
+    @keyframes footer{
+      25%{
+        color: blueviolet;
+      }
+      45%{
+        color: yellowgreen;
+      }
+      65%{
+        color: brown;
+      }
+      85%{
+        color:blue ;
+      }
+      100%{
+        color: forestgreen;
+      }
+    }
     .img{
         background-image: url(product.jpg);
         background-size: cover;
@@ -64,7 +81,8 @@ body{
       .text{
         text-align: center;
         padding-top: 40px;
-        font-size: 20px;
+        color: darkmagenta;
+        font-family: "Gravitas One", serif ;
       }
       .container{
         height: 70vh;
@@ -97,6 +115,7 @@ body{
         font-size: 15px;
         font-weight: bold;
         border-radius: 30px;
+        border: none;
         padding: 20px 35px;
         margin-left: 80px;
         margin-top: 20px;
@@ -137,6 +156,7 @@ body{
         font-size: 15px;
         font-weight: bold;
         border-radius: 30px;
+        border: none;
         padding: 20px 35px;
         margin-left: 80px;
         margin-top: 20px;
@@ -165,6 +185,7 @@ body{
         font-size: 15px;
         font-weight: bold;
         border-radius: 30px;
+        border: none;
         padding: 20px 35px;
         margin-left: 80px;
         margin-top: 20px;
@@ -192,22 +213,33 @@ body{
         color: white;
         font-size: 15px;
         font-weight: bold;
+        border: none;
         border-radius: 30px;
         padding: 20px 35px;
         margin-left: 80px;
         margin-top: 20px;
       }
-    .contact{
-        margin-left: 550px;
-        padding-bottom: 20px;
+      .contact h2{
+        margin-top: 300px;
+        text-align: center;
+        animation: footer 7s ease infinite ;
+        font-family:"Gravitas One", serif ;
+      }
+      .container3{
+        height: 10vh;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     .iconsocial{
         color: rgb(18, 123, 126);
         display: flex;
         justify-content: center;
-        gap: 40px;
-        font-size: 30px;
-        padding-bottom: 20px;
+        align-items: center;
+        gap: 30px;
+        font-size: 20px;
       }
       .fa-twitter{
         border: 1px solid rgb(18, 123, 126);

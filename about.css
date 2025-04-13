@@ -4,7 +4,8 @@ body{
   padding: 0px;
   height: 100vh;
   width: 100%;
-}.navbar{
+}
+.navbar{
     display: flex;
     justify-content: space-between;
     background-color: pink;
@@ -29,7 +30,7 @@ body{
     font-size: 20px;
     font-weight: bold;
   }
-   h1 {
+  h1 {
     font-family:"Gravitas One", serif ;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     animation: scoop 7s ease infinite;
@@ -73,155 +74,37 @@ body{
     color: rgb(18, 123, 126);
   }
   .img{
-    background-image: url(img1.jpg);
+    background-image: url(about.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
   }
-
-  .text h1{
-    color: rgb(18, 123, 126);
+  .about{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+  }
+  .about h2{
+    color: darkmagenta;
     font-family:"Gravitas One", serif ;
-    text-align: center;
   }
-  .text1{
-    color: darkmagenta;
-    font-family: "Gravitas One", serif ;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .container{
-    height: 50vh;
-    width: 100%;
-    justify-content: space-evenly;
-    display: flex;
-  }
-  .ch1 ul{
+  .about p{
     color:rgb(18, 123, 126) ;
-    font-family: "Winky Sans", sans-serif;
     font-size: 20px;
-  }
-  .ch3 ul{
-    color:rgb(18, 123, 126) ;
-    font-family: "Winky Sans", sans-serif;
-    font-size: 20px;
-
-  }
-  .ch1 h3{
-    font-size: 30px;
-    color: rgb(121, 205, 230);;
-  }
-  .ch3 h3{
-    font-size: 30px;
-    color: rgb(121, 205, 230);;
-  } 
-  .text2{
-    margin-top: 70px;
-    margin-left: 70px;
-    color: darkmagenta;
-    font-family: "Gravitas One", serif ;
-
-  }
-  button{
-    background-color: rgb(121, 205, 230);
-    color: white;
-    padding: 20px;
-    border-radius: 30px;
-    font-family: "Winky Sans", sans-serif;
-    font-size: 15px;
-    border: none;
-  }
-  .container1{
-    height: 50vh;
-    width: 100%;
-    justify-content: space-evenly;
-    display: flex;
-  }
-  .box1 h3{
-    margin-top: 60px;
-    color: rgb(121, 205, 230);
-
-  }
-  .box2 h3{
-    margin-top: 60px;
-    color: rgb(121, 205, 230);
-
-  }
-  .box3 h3{
-    margin-top: 60px;
-    color: rgb(121, 205, 230);
-
-  }
-  .box1{
-    color: rgb(18, 123, 126);
-    background-color: white;
-    text-align: center;
-    margin-top: 50px;
-    height: 300px;
-    width: 350px;
-  }
-  .box2{
-    color: rgb(18, 123, 126);
-    background-color: white;
-    text-align: center;
-    margin-top: 50px;
-    height: 300px;
-    width: 350px;
-  }
-  .box3{  
-    color: rgb(18, 123, 126); 
-    background-color: white;
-    text-align: center;
-    margin-top: 50px;
-    height: 300px;
-    width: 350px;
-  }
-  .box1 img{
-    border: 10px solid pink;
-    margin-top: 20px;
-    border-radius: 50%;
-  }
-  .box2 img{
-    border: 10px solid pink;
-    margin-top: 20px;
-    border-radius: 50%;
-  }
-  .box3 img{
-    border: 10px solid pink;
-    margin-top: 20px;
-    border-radius: 50%;
-  }
-  .text3{
-    margin-top: 70px;
-    margin-left: 70px;
-    color: darkmagenta;
-    font-family: "Gravitas One", serif ;
-  }
-  .container2{
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    padding-top: 30px;
-  }
-  .img1 img{
-    margin-left: 30px;
-  }
-  p{
     margin-left: 30px;
     margin-right: 30px;
-    font-family: "Winky Sans", sans-serif;
-    color:rgb(18, 123, 126) ;
     word-spacing: 5px;
-    font-size: 20px; 
+    font-family: "Winky Sans", sans-serif;
+
   }
   .contact h2{
-    margin-top: 500px;
+    margin-top: 600px;
     text-align: center;
     animation: footer 7s ease infinite ;
     font-family:"Gravitas One", serif ;
   }
   .container3{
-    height: 10vh;
+    height: 60px;
     width: 100%;
     background-color: pink;
     display: flex;
@@ -231,8 +114,8 @@ body{
   .iconsocial{
     color: rgb(18, 123, 126);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     font-size: 20px;
   }
@@ -281,5 +164,3 @@ body{
   #click{
     display: none;
   }
-  
-  
